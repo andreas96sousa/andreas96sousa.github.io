@@ -1,0 +1,20 @@
+#divUm {
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+}
+#divDois {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+}
+.animate__animated.animate__flipInY{
+    --animate-duration: 2s;
+}
+.animate__animated.animate__flipOutY{
+    --animate-duration: 2s;
+}
+
+.esconder{
+    display: none;
+}
