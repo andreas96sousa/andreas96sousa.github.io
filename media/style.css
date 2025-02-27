@@ -9,6 +9,7 @@ body {
   background: linear-gradient(200deg, rgb(130, 11, 141) 0%, rgb(28, 148, 138) 50%, rgb(117, 22, 113) 100%);
   margin: 0px auto;
   max-width: 1360px;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
