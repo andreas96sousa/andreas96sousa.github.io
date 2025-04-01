@@ -1,56 +1,158 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="media/style.css">
-    <link rel="icon" href="media/logo.png" type="image/png">
-    <title>Landing Page Test</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="media/Favicon.png" type="image/x-icon" />
+    <title>LP-01 - Shopify</title>
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <h1><img src="media/logo.png" alt="logo" width="150px"></h1>
+        <img src="media/shopify-logo-white.png" alt="Shopify Logo Branca" id="logo-principal" />
+        <div class="titulos">
+            <h1>
+                Sell online with Shopify <br />
+                <span>Trusted by millions of businessess worldwide</span>
+            </h1>
         </div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Price</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <div class="void"></div>
-        <div class="login">
-            <input type="button" id="login-btn" value="LOGIN">
+
+        <div class="start">
+            <input type="email" name="E-mail" placeholder="Enter your mail address" id="email" />
+            <input type="button" id="trial-button" value="Start free trial" />
         </div>
+        <p class="p-top">
+            Try Shopify free for 14 days, no credit card is required. By entering
+            your email. you agree to reiceve marketing emails from Shopify.
+        </p>
+        <img src="media/laptop.png" alt="laptop" id="laptop-img" />
     </header>
 
     <main>
-        <aside>
-            <img src="media/main-img.png" alt="Imagem Principal Shangri-La Frontier" id="imagem-principal">
-        </aside>
-        <article>
-            <div class="article1">
-                <div class="title-article1">
-                    <h2 class="title1">CADASTRE-SE E VENHA</h2>
-                    <h2>se divertir</h2>
-                </div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur provident voluptatibus aspernatur
-                    perferendis dolorum dolor consectetur numquam amet molestias? Aperiam esse quibusdam eligendi ex
-                    molestias quisquam sapiente deserunt atque quod.</p>
-            </div>
+        <div class="void"></div>
 
-            <form>
-                <input type="text" name="nome" placeholder="Seu nome" id="name">
-                <input type="email" name="E-mail" placeholder="Seu E-mail" id="email">
-                <button id="btn-cadastrar">CADASTRAR</button>
-            </form>
-        </article>
+        <section class="descriptions">
+            <div class="descripts">
+                <img src="media/icon-1.png" alt="icon" id="descripticon" />
+                <h4>Customizable templates</h4>
+                <p>Free website designs to launch your store quickly and easily.</p>
+            </div>
+            <div class="descripts">
+                <img src="media/icon-2.png" alt="icon" id="descripticon" />
+                <h4>All in on</h4>
+                <p>
+                    Shopify takes care of everithing from marketing and payments to
+                    secure transactions and shipping.
+                </p>
+            </div>
+            <div class="descripts">
+                <img src="media/icon-3.png" alt="icon" id="descripticon" />
+                <h4>A safe and efficient plataform</h4>
+                <p>Millions of users trust Shopify to manage their online stores.</p>
+            </div>
+        </section>
+        <div class="void"></div>
+        <section class="partners">
+            <img src="media/cee-cees-closet-logo.png" alt="cee-cees-closet-logo" class="logomarcas-parceiras" />
+            <img src="media/nalata-logo.png" alt="nalata-logo" class="logomarcas-parceiras" />
+            <img src="media/kirrin-finch-logo.png" alt="kirrin-finch-logo" class="logomarcas-parceiras" />
+            <img src="media/tokyobike-logo.png" alt="tokyobike-logo" class="logomarcas-parceiras" />
+            <img src="media/meso-goods-logo.png" alt="meso-goods-logo" class="logomarcas-parceiras" />
+            <img src="media/coco-and-breezy-logo.png" alt="coco-and-breezy-logo" class="logomarcas-parceiras" />
+            <img src="media/brooklyn-museu-logo.png" alt="brooklyn-museu-logo" class="logomarcas-parceiras" />
+            <img src="media/adore-me-logo.png" alt="adore-me-logo" class="logomarcas-parceiras" />
+        </section>
+        <div class="void"></div>
+        <section class="comments">
+            <p id="comment">
+                ‘‘Shopify is better than any other platform we’ve played with,
+                and we’ve played with them all.’’
+            </p>
+            <p id="comment-name">JONATHON BAYME, CEO OF THEORY11</p>
+            <input type="button" id="trial-button-in-comments" value="Start free trial" />
+        </section>
+        <div class="void"></div>
     </main>
 
-    <footer>All Rights Reserved.</footer>
+    <footer>
+        <div class="faqs">
+            <div class="voidfoot"></div>
+            <h3 class="faqTitle">FAQs</h3>
+            <div class="questions">
+
+                <div class="question">
+                    <details>
+                        <summary>
+                            Whats is Shopify and how does work?
+                            <img class="plus" src="/Entregar dia 25-03-2025/LP01/media/plus.svg" alt="plus-svg">
+                        </summary>
+                        <span>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. At eveniet sed impedit quas! Saepe, quaerat dignissimos! Vel alias impedit commodi, vero provident laborum facilis quibusdam similique quisquam ea est. Voluptatum.
+                        </span>
+                    </details>              
+                </div>
+
+                <hr>
+
+                <div class="question">
+                    <details>
+                        <summary>
+                            How much does Shopify cost?
+                            <img class="plus" src="/Entregar dia 25-03-2025/LP01/media/plus.svg" alt="plus-svg">
+                        </summary>
+                        <span>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente inventore corrupti possimus expedita mollitia? Veritatis aliquid, mollitia cum tempore laborum ullam voluptate consequatur odio atque sint quaerat reprehenderit porro asperiores!
+                        </span>
+                    </details>
+                </div>
+
+                <hr>
+
+                <div class="question">
+                    <details>
+                        <summary>
+                            Can I use my own domain name with Shopify?
+                            <img class="plus" src="/Entregar dia 25-03-2025/LP01/media/plus.svg" alt="plus-svg">
+                        </summary> 
+                        <span>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus vel fuga voluptates molestiae rem at possimus ea aspernatur a tenetur architecto, quas nihil tempora recusandae eos sit ut fugit! Nemo.
+                        </span>   
+                    </details>
+                </div>
+
+                <hr>
+
+                <div class="question">
+                    <details>
+                        <summary>
+                            Do I need to be a designer or developer to use Shopify?
+                            <img class="plus" src="/Entregar dia 25-03-2025/LP01/media/plus.svg" alt="plus-svg">
+                        </summary>
+                        <span>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, in commodi repellendus praesentium molestiae corrupti sequi asperiores perspiciatis ullam ratione ipsum itaque tempore sit adipisci sed dolorem veritatis voluptates reprehenderit.
+                        </span>
+                    </details>
+                </div>
+
+                <hr>
+
+            </div>
+
+            <div class="voidfoot"></div>
+            <div class="voidfoot"></div>
+            <div class="voidfoot"></div>
+            <div class="voidfoot"></div>
+            <div class="voidfoot"></div>
+
+        </div>
+
+        <div class="foot">
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+    </footer>
 </body>
 
 </html>
